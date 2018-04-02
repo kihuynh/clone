@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { IssuesComponent } from './issues/issues.component';
 import { MoreComponent } from './more/more.component';
 import { VideoComponent } from './video/video.component';
+import { ClassesComponent } from './classes/classes.component';
 
 const appRoutes: Routes = [
   {
@@ -46,6 +47,10 @@ const appRoutes: Routes = [
   {
     path: 'video',
     component: VideoComponent
+  },
+  {
+    path: 'classes',
+    component: ClassesComponent
   }
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
