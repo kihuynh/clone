@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { RidingsoloComponent } from './ridingsolo/ridingsolo.component';
+import { MainComponent } from './main/main.component';
 import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RidingsoloComponent
+    RidingsoloComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

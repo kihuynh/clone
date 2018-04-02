@@ -1,10 +1,15 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MainComponent } from './main/main.component';
 import { RidingsoloComponent } from './ridingsolo/ridingsolo.component';
 
 const appRoutes: Routes = [
   {
-    path: '',
+    path:'',
+    component: MainComponent,
+  },
+  {
+    path: 'riding solo',
     component: RidingsoloComponent
   }
 ];
