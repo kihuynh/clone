@@ -9,7 +9,7 @@ const appRoutes: Routes = [
     component: MainComponent,
   },
   {
-    path: 'riding solo',
+    path: 'ridingsolo',
     component: RidingsoloComponent
   }
 ];
