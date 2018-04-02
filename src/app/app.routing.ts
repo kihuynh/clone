@@ -7,6 +7,7 @@ import { FashionComponent } from './fashion/fashion.component';
 import { FoodComponent } from './food/food.component';
 import { HomeComponent } from './home/home.component';
 import { IssuesComponent } from './issues/issues.component';
+import { MoreComponent } from './more/more.component';
 
 const appRoutes: Routes = [
   {
@@ -36,6 +37,10 @@ const appRoutes: Routes = [
   {
     path: 'issues',
     component: IssuesComponent
+  },
+  {
+    path: 'more',
+    component: MoreComponent
   }
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
