@@ -4,6 +4,7 @@ import { MainComponent } from './main/main.component';
 import { RidingsoloComponent } from './ridingsolo/ridingsolo.component';
 import { BeautyComponent } from './beauty/beauty.component';
 import { FashionComponent } from './fashion/fashion.component';
+import { FoodComponent } from './food/food.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'fashion',
     component: FashionComponent
+  },
+  {
+    path: 'food',
+    component: FoodComponent
   }
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
