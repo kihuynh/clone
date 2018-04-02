@@ -8,6 +8,7 @@ import { FoodComponent } from './food/food.component';
 import { HomeComponent } from './home/home.component';
 import { IssuesComponent } from './issues/issues.component';
 import { MoreComponent } from './more/more.component';
+import { VideoComponent } from './video/video.component';
 
 const appRoutes: Routes = [
   {
@@ -41,6 +42,10 @@ const appRoutes: Routes = [
   {
     path: 'more',
     component: MoreComponent
+  },
+  {
+    path: 'video',
+    component: VideoComponent
   }
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
