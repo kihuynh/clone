@@ -1,3 +1,15 @@
-<p>
-  main works!
-</p>
+<div class="container">
+
+</div>
+
+
+
+<div ngFor="let article of articles | async">
+  <div class="singleArticle">
+    <img src="{{article.image}}">
+    <h2>{{ article.title }}</h2>
+    <h4>{{ article.author }}</h4>
+    <p>{{ article.content }}</p>
+  </div>
+
+</div>
