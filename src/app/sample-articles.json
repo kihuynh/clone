@@ -1,0 +1,32 @@
+{ "articles": [{
+  "title": "How To Cry",
+  "author": "Jane Doe",
+  "content": "Hello, here's a small blog article based on whatever subject. It's going to be quite random and not good but it's osmething right?. I'm not a writer, but let me tell you this. It's alright, you can cry. Things can be a little stressful right now, but it'll be alright.",
+  "image": "https://images.unsplash.com/photo-1490772767047-f9bf3f029f55?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=26c6f6d06e4e28443cedd4d971cb618b&auto=format&fit=crop&w=1950&q=80",
+  "id": "1"
+  },{
+  "title": "Sunshine Times",
+  "author": "Margeret Sunshine",
+  "content": "Sunshine times are here! ",
+  "image": "https://images.unsplash.com/photo-1516757932457-9233f965b8d8?ixlib=rb-0.3.5&s=6fe7be009b600893c9e500db105cead6&auto=format&fit=crop&w=2852&q=80",
+  "id": "2"
+  },{
+  "title": "Food Fight",
+  "author": "Swedish Chef",
+  "content": "Zees fuod item is zee-a nuo huttest zeeng in zee-a suommer. I injuyed ieting zees gruoing up in zee-a cuountryside-a in Svedee-a. Bork Bork Bork!",
+  "image": "https://images.unsplash.com/photo-1438806146127-b8ad315ddc89?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4ef62b8e3343510bf5e63254c42b49ab&auto=format&fit=crop&w=1955&q=80",
+  "id": "3"
+  },{
+  "title": "Trends For The Upcoming 2018 Spring & Fashion season",
+  "author": "Vera Wang",
+  "content": "Floral, pastels are in. Lightweight fabric are a key point to survive the warm summer months. Looking like an ethereal garden. Gotta get into those summer feelings and make it last. Especially those in the colder states. Make it worth it, and make it last",
+  "image":
+  "id": "4"
+  },{
+  "title": "Emitting The Confidence You Have",
+  "author": "Yass Queen",
+  "content": "Everyone has the confidence. It can be a little hard to find it when your mindset gets a little cloudy. Slowly build a ladder to get out of what slump you maybe in. As you slowly climb out the light will show itself to you as well.",
+  "image": "https://images.unsplash.com/photo-1516676839530-135a545cce02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a4999c75da2d6668b7949b031c67958&auto=format&fit=crop&w=1566&q=80",
+  "id": "5"
+  }]
+}
