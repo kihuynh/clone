@@ -18,7 +18,7 @@ $ npm install
 $ ng build
 $ ng serve --open
 ```
-Navigate to `http://localhost:4200/`
+Navigate to `http://localhost:4200/` in your browser!
 
 
 ## Current Features
@@ -29,8 +29,9 @@ Navigate to `http://localhost:4200/`
 ## Future Features
 - Adding a few articles in database
 - Adding firebase database
-- Add file article json file to firebase database
+- Add 5 file article json file to firebase database
 - Add database items onto main page
+- Add article services/items?
 - Add styling
 - Firebase deployment
 
