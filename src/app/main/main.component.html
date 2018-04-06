@@ -2,9 +2,7 @@
 
 </div>
 
-
-
-<div ngFor="let article of articles | async">
+<div *ngFor="let article of articles | async">
   <div class="singleArticle">
     <img src="{{article.image}}">
     <h2>{{ article.title }}</h2>
