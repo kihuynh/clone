@@ -1,27 +1,38 @@
 # SiteRebuild
-#### Recreating a site using angular, 3/30/2018
+#### Semi-recreating a site using angular, 3/30/2018
 #### By Kimberly Huynh
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Description
-Temporary Placement
+ The task of rebuilding site using angular. The site of choice for this project is, [Brit & Co](https://www.brit.co/), a media company that encourages women in all aspects of their life. Including topics from doing things by yourself, beauty, health, and anything that inspiring women to be the best that they can be.
 
 ## Setup/Installation Requirements
 Open Terminal <br/>
 Clone on your local machine, run the following in the Terminal
 ```
-$ git clone https://github.com/kihuynh/doctorLookie.git
+$ git clone https://github.com/kihuynh/site-rebuild.git
 ```
 Run the following!
 ```
 $ npm install
 $ ng build
-$ ng serve
+$ ng serve --open
 ```
-Navigate to `http://localhost:4200/` 
-## Build
+Navigate to `http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Current Features
+- Main page displaying navigation bar
+- Menu options routing to appropriate page path
+- Basic placeholder for footer
+
+## Future Features
+- Adding a few articles in database
+- Adding firebase database
+- Add file article json file to firebase database
+- Add database items onto main page
+- Add styling
+- Firebase deployment
 
 ## License
 
