@@ -25,15 +25,18 @@ Navigate to `http://localhost:4200/` in your browser!
 - Main page displaying navigation bar
 - Menu options routing to appropriate page path
 - Basic placeholder for footer
-
-## Future Features
 - Adding a few articles in database
 - Adding firebase database
 - Add 5 file article json file to firebase database
 - Add database items onto main page
-- Add article services/items?
+- Add article services/items
+
+## Future Features
 - Add styling
 - Firebase deployment
+
+## Images
+Images credit to, [Unsplash](https://unsplash.com/), and their respective photographers.
 
 ## License
 
