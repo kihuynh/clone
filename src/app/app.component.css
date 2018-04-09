@@ -1,0 +1,19 @@
+.mainLink {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar-brand {
+  width: 120px;
+}
+
+#footLogo {
+  width: 120px;
+}
+
+.footLink {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
