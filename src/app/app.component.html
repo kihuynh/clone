@@ -1,30 +1,36 @@
 <nav class="navbar navbar-fixed-top">
-  <div class="container">
+  <div class="container-fluid container">
     <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">Brit & Co</a>
+      <a class="navbar-brand" routerLink="">
+        <img src="https://components.britcdn.com/assets/images/logo.svg">
+      </a>
     </div>
     <ul class="nav test">
-      <li><a routerLink="ridingsolo">Riding Solo</a></li>
-      <a routerLink="beauty">Beauty</a>
-      <a routerLink="fashion">Fashion</a>
-      <a routerLink="food">Food</a>
-      <a routerLink="home">Home</a>
-      <a routerLink="issues">Issues</a>
-      <a routerLink="more">More</a>
-      <a routerLink="video">Video</a>
-      <a routerLink="classes">Classes</a>
+      <li>
+        <a class="mainLink" routerLink="ridingsolo">Riding Solo</a>
+        <a class="mainLink" routerLink="beauty">Beauty</a>
+        <a class="mainLink" routerLink="fashion">Fashion</a>
+        <a class="mainLink" routerLink="food">Food</a>
+        <a class="mainLink" routerLink="home">Home</a>
+        <a class="mainLink" routerLink="issues">Issues</a>
+        <a class="mainLink" routerLink="more">More</a>
+        <a class="mainLink" routerLink="video">Video</a>
+        <a class="mainLink" routerLink="classes">Classes</a>
+      </li>
     </ul>
   </div>
 </nav>
 <!-- try a non-boot strap way for menu -->
 <!-- router outlet will go here later -->
 <div class="container">
-  <h1>{{title}}</h1>
+  <!-- <h1>{{title}}</h1> -->
   <router-outlet></router-outlet>
-  <footer>
-    <div class="">
-      <a routerLink="">{{title}}</a>
-      <p>PLACEMENT TEST FOR FOOTER HERE</p>
-    </div>
-  </footer>
 </div>
+<footer>
+  <div class="footie container">
+    <a routerLink="">
+      <img id="footLogo" src="https://components.britcdn.com/assets/images/logo.svg">
+    </a>
+    <p>PLACEMENT TEST FOR FOOTER HERE</p>
+  </div>
+</footer>
