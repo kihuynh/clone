@@ -19,7 +19,10 @@ $ ng build
 $ ng serve --open
 ```
 Navigate to `http://localhost:4200/` in your browser!
-
+<br>
+OR
+<br>
+Go to firebase hosted site, https://siterebuild-a7b04.firebaseapp.com/
 
 ## Current Features
 - Main page displaying navigation bar
@@ -30,10 +33,10 @@ Navigate to `http://localhost:4200/` in your browser!
 - Add 5 file article json file to firebase database
 - Add database items onto main page
 - Add article services/items
+- Firebase deployment
 
 ## Future Features
-- Add styling
-- Firebase deployment
+- Full styling
 
 ## Images
 Images credit to, [Unsplash](https://unsplash.com/), and their respective photographers.
