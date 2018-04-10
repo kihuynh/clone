@@ -1,13 +1,18 @@
-<div class="container">
-
+<div class="colorBlock">
+</div>
+<div class="container containment">
+  <h1>Latest Articles</h1>
+    <div *ngFor="let article of articles | async" id="articleDiv">
+      <img src="{{article.image}}" id="mainImage">
+      <h2>{{ article.title }}</h2>
+      <p>{{ article.author }}</p>
+    </div>
 </div>
 
-<div *ngFor="let article of articles | async">
+<!-- <div *ngFor="let article of articles | async">
   <div class="singleArticle">
-    <img src="{{article.image}}">
+    <img src="{{article.image}}" id="mainImage">
     <h2>{{ article.title }}</h2>
-    <h4>{{ article.author }}</h4>
-    <p>{{ article.content }}</p>
+    <h5>{{ article.author }}</h5>
   </div>
-
-</div>
+</div> -->
